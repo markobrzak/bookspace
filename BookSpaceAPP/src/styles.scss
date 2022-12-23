@@ -5,3 +5,7 @@
 
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
+
+body{
+    background: rgba($color: #410200, $alpha: 0.25);
+}
