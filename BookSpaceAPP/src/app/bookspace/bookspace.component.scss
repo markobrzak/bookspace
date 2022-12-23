@@ -1,4 +1,4 @@
-.header {
+.header-bottom{
     width: 100%; 
     height: 50px; 
     background-color: #002e20;
@@ -13,6 +13,17 @@
     background-color: rgba($color: #001f20, $alpha: 1.0);
     
 }
+
+input { font-family: inherit; }
+
+.header{
+  max-width: 1200px;
+  margin: auto;
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
 
 
 .header a {
@@ -50,3 +61,10 @@
     padding-top: 2px;
     color: rgba($color: #0a5c11, $alpha: 1.0)
   }
+
+  .main-d{
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+  }
+
